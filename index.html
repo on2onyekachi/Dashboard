@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- mobile Overlay -->
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+        <!-- header -->
+        <header class="header">
+            <div class="header-left">
+                <button class="mobile-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="search..">
+                </div>
+            </div>
+
+            <div class="header-right">
+                <button class="theme-toggle" id="themeToggle" >
+                    <i class="fas fa-moon" ></i>
+                </button>
+                <div class="notification">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-badge">2</span>
+                </div>
+                <div class="user-profile">
+                    <!-- <img src="#" alt="User profile"> -->
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <h1>CodeWithKachi</h1>
+            </div>
+            <span class="nav-title" >Main Menu</span>
+            <nav class="nav-links">
+                <a href="#" class="nav-item active">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Project</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Calendar</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-users"></i>
+                    <span>Team</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Reports</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </a>
+            </nav>
+            <span class="nav-title">Team members</span>
+            <div class="nav-links">
+                <div class="team-member">
+                    <img src="assets/images/user2.jpg" alt="avatar" class="member-avatar"/>
+                    <span>Alex Smith</span>
+                </div>
+                <div class="team-member">
+                    <img src="assets/images/user1.jpg" alt="avatar" class="member-avatar"/>
+                    <span>Maria Johnson</span>
+                </div>
+                <div class="team-member">
+                    <img src="assets/images/user2.jpg" alt="avatar" class="member-avatar"/>
+                    <span>Mike Peterson</span>
+                </div>
+                <div class="team-member">
+                    <img src="assets/images/user1.jpg" alt="avatar" class="member-avatar"/>
+                    <span>Sarah Robert</span>
+                </div>
+                <div class="team-member">
+                    <img src="assets/images/user2.jpg" alt="avatar" class="member-avatar"/>
+                    <span>John Doe</span>
+                </div>
+            </div>
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Welcome Banner -->
+             <div class="welcome-banner">
+                <h1>Welcome Back, Kachi</h1>
+                <p>You have 3 ongoing projects, 2 deadlines are aproaching this month</p>
+             </div>
+        </main>
+
+
+        <!-- footer -->
+        <footer class="footer" ></footer>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
