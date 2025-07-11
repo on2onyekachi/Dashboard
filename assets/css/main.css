@@ -270,9 +270,6 @@ body{
     cursor: pointer;
 }
 .team-member .member-avatar{
-    /* width: 32px;
-    height: 32px;
-    border-radius: 50%; */
     background: linear-gradient(135deg, var(--primary), var(--secondary));
     display: flex;
     align-items: center;
@@ -661,10 +658,7 @@ body{
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-/* .stat-label{
-    font-size: 0.25rem;
-    color: var(--gray);
-} */
+
 /* Animation Stats */
 @keyframes pulse{
     0%{
