@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function(){
-    document.body.classList.add("loading");
+document.addEventListener('DOMContentLoaded', function(){
+    document.body.classList.add('loading');
 
     // Mobile Sidebar Toggle
     const menuToggle = document.getElementById('menuToggle');
@@ -94,14 +94,14 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 
 })
-window.addEventListener("load", () => {
-    const loader = document.getElementById("loader");
-    const dashboard = document.getElementById("dashboard");
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    const dashboard = document.getElementById('dashboard');
     const spinner = document.querySelector('.spinner');
     setTimeout(() => {
-        loader.classList.add("fade-out");
-        dashboard.style.opacity = "1";
+        loader.classList.add('fade-out');
+        dashboard.style.opacity = '1';
         spinner.style.animation = 'none';
-        document.body.classList.remove("loading");
+        document.body.classList.remove('loading');
     }, 1000);
 });
