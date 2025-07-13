@@ -37,10 +37,10 @@ Optional code highlight:
 ## 📁 Folder Structure
 
 ```bash
-📦dashboard
+📦Dashboard
  ┣ 📁assets
-    ┣ 📁css
-    ┣ 📁images
-    ┣ 📁js
+ ┃ ┣ 📁css
+ ┃ ┣ 📁images
+ ┃ ┗ 📁js
  ┣ index.html
  ┗ README.md
